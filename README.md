@@ -1,3 +1,2 @@
 # GayOrNot
-ゲイ会 OR NOT
-index.html
+[ゲイ会 OR NOT](https://jkinmeaux.github.io/GayOrNot/)

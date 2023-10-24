@@ -43,7 +43,7 @@ function showResult() {
 	result.innerHTML = `${currentImageIndex}問中${correctCount}問正解です。`;
   tweetBtn.style.display = "block";
   tweetBtn.onclick = function() {
-    const url = "https://jkinmeaux.github.io/GayOrNot/"; // 共有するURLを設定する
+    const url = "https://jkinhelsinki.github.io/GayOrNot/"; // 共有するURLを設定する
     const text = `ゲイ会 OR NOTで${currentImageIndex}問中${correctCount}問正解しました！`; // 共有するテキストを設定する
     const hashtags = "ゲイ会OrNot"; // 共有するハッシュタグを設定する
     window.open(`https://twitter.com/share?url=${url}&text=${text}&hashtags=${hashtags}`, '_blank');
